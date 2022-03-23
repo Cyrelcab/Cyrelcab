@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Text Auto Typing Effect</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>I'm <span class="elements"></span></h1>
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+	<script type="text/javascript">
+		var options = {
+  strings: ['Cyrel', 'a BSIT Student', 'interested in Web Dev'],
+  typeSpeed: 150,
+  backSpeed: 150,
+  loop: true
+};
+
+var typed = new Typed('.elements', options);
+	</script>
+</body>
+</html>
